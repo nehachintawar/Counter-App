@@ -1,4 +1,5 @@
-import {useState} from 'react';
+ import {useState} from 'react';
+import Calculator from './Calculator.jsx'
 
 export default function App () {
 
@@ -41,6 +42,7 @@ export default function App () {
     <br />
     <button onClick={reset}>Reset</button>
     <p>Current step: +1</p>
+    <Calculator />
     </div>
 
   )
