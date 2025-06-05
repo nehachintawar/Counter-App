@@ -1,5 +1,6 @@
  import {useState} from 'react';
 import Calculator from './Calculator.jsx'
+import MovieList from './MovieList.jsx';
 
 export default function App () {
 
@@ -43,6 +44,7 @@ export default function App () {
     <button onClick={reset}>Reset</button>
     <p>Current step: +1</p>
     <Calculator />
+    <MovieList />
     </div>
 
   )
